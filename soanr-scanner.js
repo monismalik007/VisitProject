@@ -2,7 +2,7 @@ const scanner = require('sonarqube-scanner');
 scanner(
     {
         serverUrl: "http://localhost:9000",
-        token: "b16f5e2efee3e41069d5c8f5d04dd62dad7c012f",
+        token: "46a57961104ec570e23ca1f8a696ed9ca6d5fe62",
         options: {
             "sonar.sources": "./src"
         },
