@@ -11,7 +11,7 @@ pipeline {
             
         }
         stage('Image Build') {
-            agent { Dockerfile true }
+            agent { dockerfile true }
             steps {
                 sh 'node --version'
             }
