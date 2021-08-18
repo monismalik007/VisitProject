@@ -6,6 +6,6 @@ scanner(
   options: {
     'sonar.sources': '.'
   },
-},
+}
 () => process.exit()
 );
